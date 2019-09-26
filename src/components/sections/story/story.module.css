@@ -1,0 +1,53 @@
+.story{
+width: 100%;
+text-align: center;
+height: 50vh;
+margin-top:40px;
+
+margin-bottom: 200px;
+
+}
+
+.heading{
+  color: #543009;
+  padding-top: 50px;
+  font-size: 50px;
+  letter-spacing: 1rem;
+}
+
+
+hr{
+position: relative;
+margin:0 auto;
+  width: 450px;
+  border-top:4px solid #543009;
+}
+
+
+ p{
+   margin-top:40px;
+   text-align: justify;
+   font-size: 15px;
+color: grey;
+
+
+ }
+
+#btn{
+
+color:white;
+ background-color: #543009;
+  width:250px;
+   padding:10px;
+   height: 60px;
+   border-radius: 100px;
+   margin-top:80px;
+transition: all 0.6s ease-out;
+}
+
+
+#btn:hover{
+
+transform:translateY(-10px) scale(1.1);
+
+}

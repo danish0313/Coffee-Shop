@@ -1,0 +1,22 @@
+.menu{
+width: 100%;
+text-align:center;
+margin-top: 70px;
+
+}
+
+.heading{
+  margin-top: 50px;
+  color: #543009;
+  padding-top: 20px;
+  font-size: 50px;
+  letter-spacing: 1rem;
+}
+
+
+hr{
+position: relative;
+margin:0 auto;
+  width: 560px;
+  border-top:4px solid #543009;
+}

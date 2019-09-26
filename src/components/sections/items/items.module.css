@@ -1,0 +1,84 @@
+.inner{
+display: grid;
+grid-template-columns: 1fr  60px ;
+
+}
+.box{
+  margin-left: 10px;
+  background-color:#c6abab;
+  margin-bottom:40px;
+  height: 96%;
+}
+
+.images {
+
+float: left;
+display: inline-block;
+margin:20px 0;
+padding: 20px;
+
+}
+.title h6{
+padding-top: 20px;
+color:#170e04 !important;
+
+}
+
+.price{
+
+position: relative;
+top:-50px;
+padding: 20px;
+
+}
+
+.price p{
+  color: #170E04;
+font-weight: bold;
+  font-size: 16px;
+}
+
+
+.category{
+position: absolute;
+right: 20px;
+  border: 2px dashed #170E04;
+  color:#170E04;
+  margin:10px;
+  padding: 5px 5px;
+
+  }
+
+
+
+
+  .filter{
+    margin:90px 0px;
+
+  }
+
+  .filter span{
+  border: 2px dashed #1F0F06;
+  cursor: pointer;
+    width: 50px;
+  color:#1F0F06;
+  margin:15px;
+  padding: 10px;
+
+  }
+
+
+  .filter span:hover{
+
+
+  background-color: #1f0f06;
+  color:white;
+  transition: all 1s;
+
+  }
+
+
+  .filter span:{
+    background-color: #1f0f06;
+    color:white;
+  }

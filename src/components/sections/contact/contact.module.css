@@ -1,0 +1,86 @@
+.contact{
+background-color: #c6abab;
+margin:0 auto;
+margin-top: 100px;
+
+padding-bottom: 40px;
+}
+
+.contactform{
+
+text-align: center;
+margin-top: 100px;
+
+}
+
+.contactform label{
+
+  font-size:19px;
+  margin-top:20px;
+  margin-right:100px;
+}
+
+
+.contactform input  {
+margin-top: 10px;
+width: 400px;
+outline : none;
+height: 50px;
+border: none;
+border-radius: 30px;
+}
+
+
+input[placeholder] , textarea[placeholder] {
+
+  text-align: center;
+}
+
+
+
+
+
+.contactform textarea {
+margin-top:30px;
+
+margin-left:  20px;
+width: 400px;
+  outline : none;
+height: 100px;
+
+}
+
+.btn{
+
+  border:2px dashed #543009;
+    color:#543009;
+    outline : none;
+  margin-top: 50px;
+  width: 40%;
+  font-size: 30px;
+transition: all 0.6s ease-out ;
+border-radius: 30px;
+}
+
+
+.btn:hover{
+  background-color: #543009;
+  color:white;
+}
+
+
+
+.heading{
+  color: #543009;
+  padding-top: 20px;
+  font-size: 50px;
+  letter-spacing: 1rem;
+}
+
+
+hr{
+position: relative;
+margin:0 auto;
+  width: 450px;
+  border-top:4px solid #543009;
+}

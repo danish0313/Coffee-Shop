@@ -1,0 +1,17 @@
+#back{
+top:140px;
+height: 70vh;
+background-color: black;
+background:linear-gradient(to bottom, rgba(0, 0,0, 0.6), rgba(0, 0,0, 0.6)) , url('../images/back.jpg');
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+margin-bottom: 200px;
+}
+
+.heading {
+  position: relative;
+top:40%;
+  color:white !important;
+  font-size: 90px;
+}

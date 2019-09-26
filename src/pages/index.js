@@ -1,21 +1,60 @@
 import React from "react"
-import { Link } from "gatsby"
-
 import Layout from "../components/layout"
-import Image from "../components/image"
 import SEO from "../components/seo"
-
-const IndexPage = () => (
+import Slideshow from "../components/sections/slideshow/slideshow"
+import Story from "../components/sections/story/story"
+import OurMenu from "../components/sections/ourMenu/ourmenu"
+import   OurProducts from "../components/sections/ourproducts/ourproduct"
+import { graphql } from "gatsby"
+import Contact from '../components/sections/contact/contact'
+import Footer from '../components/sections/footer/footer.js'
+const IndexPage = ({data}) => (
   <Layout>
     <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <Link to="/page-2/">Go to page 2</Link>
+<Slideshow/>
+<Story name='About Us' link="/about"/>
+<OurMenu items={data.menu}/>
+<OurProducts />
+<Contact/>
+<Footer/>
   </Layout>
 )
+
+
+
+export const data = graphql`
+{
+  menu: allContentfulItems {
+    edges {
+      node {
+        id
+        des {
+          des
+        }
+        price
+        title
+        category
+        image {
+          fixed(width: 50, height: 50) {
+            src
+          }
+        }
+      }
+    }
+  }
+}
+`
+
+
+
+
+
+
+
+
+
+
+
+
 
 export default IndexPage

@@ -1,0 +1,12 @@
+
+#menu{
+
+  outline: none
+
+}
+
+#menu:hover{
+
+  transition: all 1s;
+  transform: rotate(90deg)
+}
