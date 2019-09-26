@@ -2,13 +2,12 @@
 require("dotenv").config({
   path: `.env.${process.env.NODE_ENV}`,
 })
+
 module.exports = {
-  pathPrefix: "https://danish0313.github.io/Coffee-Shop",
-}
-module.exports = {
+pathPrefix: "/Coffee-Shop",
   siteMetadata: {
     title: `Coffee Shop`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    description: `Coffee Shop E-Ecommerce.`,
     author: `@gatsbyjs`,
   },
   plugins: [
