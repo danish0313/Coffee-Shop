@@ -4,7 +4,7 @@ require("dotenv").config({
 })
 
 module.exports = {
-pathPrefix: "https://danish0313.github.io/Coffee-Shop",
+pathPrefix: "https://danish0313.github.io/Coffee-Shop/",
   siteMetadata: {
     title: `Coffee Shop`,
     description: `Coffee Shop E-Ecommerce.`,
