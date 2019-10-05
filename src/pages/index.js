@@ -3,8 +3,8 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Slideshow from "../components/sections/slideshow/slideshow"
 import Story from "../components/sections/story/story"
-import OurMenu from "../components/sections/ourMenu/ourmenu"
-import   OurProducts from "../components/sections/ourproducts/ourproduct"
+import Ourmenu from "../components/sections/ourMenu/ourmenu"
+import   Ourproducts from "../components/sections/ourproducts/ourproduct"
 import { graphql } from "gatsby"
 import Contact from '../components/sections/contact/contact'
 import Footer from '../components/sections/footer/footer.js'
@@ -13,8 +13,8 @@ const IndexPage = ({data}) => (
     <SEO title="Home" />
 <Slideshow/>
 <Story name='About Us' link="/about"/>
-<OurMenu items={data.menu}/>
-<OurProducts />
+<Ourmenu items={data.menu}/>
+<Ourproducts />
 <Contact/>
 <Footer/>
   </Layout>
