@@ -1,6 +1,6 @@
 
 import PropTypes from "prop-types"
-import React , {useState} from "react"
+import React , {useState , useEffect} from "react"
 import Logo from "../images/coffee.svg"
 import {Link } from "gatsby"
 import $ from 'jquery';
@@ -12,9 +12,10 @@ const Header = ({ siteTitle }) =>  {
 
 const [Show, setShow] = useState(false);
 
+useEffect( () => {
 
   // for log to shrink
-    window.onscroll = function() {scrollFunction()};
+  window.onscroll = function() {scrollFunction()};
 
     function scrollFunction() {
       if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
@@ -28,6 +29,9 @@ const [Show, setShow] = useState(false);
     }
 
 
+
+
+},[])
 
 
 
