@@ -18,7 +18,7 @@ return (
 
 
 <div className="col-sm-12 col-xs-12 col-md-6 col-xl-6 text-center"  id={classes.footer}>
-<h4>Site By  : Danish Khan <span role="img">&#128522; </span> </h4>
+<h4>Site By  : Danish Khan <span role="img" aria-label="#128522">&#128522; </span> </h4>
 
 </div>
 

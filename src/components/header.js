@@ -3,8 +3,6 @@ import PropTypes from "prop-types"
 import React , {useState , useEffect} from "react"
 import Logo from "../images/coffee.svg"
 import {Link } from "gatsby"
-import $ from 'jquery';
-import Popper from 'popper.js';
 import { FaShoppingCart ,FaHome ,FaUserAlt , FaMobileAlt } from 'react-icons/fa';
 import classes from "./header.module.css";
 

@@ -1,7 +1,7 @@
 import React from 'react'
 import classes from './ourMenu.module.css'
 import Items from '../items/items'
-const Ourmenu = (props) => {
+const Ourmenus = (props) => {
 
 
 
@@ -33,4 +33,4 @@ const Ourmenu = (props) => {
   )
 }
 
-export default Ourmenu;
+export default Ourmenus;

@@ -32,7 +32,7 @@ const products = graphql`
 
 
 
-const Ourproducts = (props) => {
+const Ourproductss = (props) => {
 
 
   return (
@@ -73,4 +73,4 @@ return (
   )
 }
 
-export default Ourproducts;
+export default Ourproductss;

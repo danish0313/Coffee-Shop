@@ -1,6 +1,7 @@
 import React from 'react'
 import classes from './contact.module.css';
 
+/* eslint-disable */
 const Contact = (props) => {
   return (
     <div className="container" className={classes.contact}>
@@ -25,7 +26,7 @@ const Contact = (props) => {
         <label for="lname">Last Name</label>
         <input type="text" id="lname" name="lastname" required="required" placeholder="Your last name.."/> <br/>
         <label id={classes.text} for="subject">Subject</label>
-        <textarea id="subject"  name="subject" cols='50' required="required" rows = '4' placeholder="Write something.."/> <br/>
+        <textarea  name="subject" cols='50' required="required" rows = '4' placeholder="Write something.."/> <br/>
         <button type="submit" className={classes.btn}>Submit</button>
 
       </form>
