@@ -59,8 +59,8 @@ useEffect( () => {
 <div className={Show === false  ? 'collapse navbar-collapse' : 'collapse navbar-collapse show'} id="navbarNavAltMarkup">
       <div className="navbar-nav ml-auto mr-5 ">
         <Link to="/" className="nav-item nav-link active" ><FaHome  style={{fontSize:'25px'}}/> </Link>
-        <Link to ="/about" className="nav-item nav-link" ><FaUserAlt  style={{fontSize:'25px'}}/></Link>
-      <Link to ="/cart" className="nav-item nav-link snipcart-checkout" >
+        <Link to ="Coffee-Shops/about" className="nav-item nav-link" ><FaUserAlt  style={{fontSize:'25px'}}/></Link>
+      <Link to ="Coffee-Shops/cart" className="nav-item nav-link snipcart-checkout" >
       <FaShoppingCart style={{fontSize:'25px'}}/> </Link>
 
 

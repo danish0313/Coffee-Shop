@@ -12,7 +12,7 @@ const IndexPage = ({data}) => (
   <Layout>
     <SEO title="Home" />
 <Slideshow/>
-<Story name='About Us' link="/about"/>
+<Story name='About Us' link="Coffee-Shops/about"/>
 <Ourmenus items={data.menu}/>
 <Ourproductss />
 <Contact/>

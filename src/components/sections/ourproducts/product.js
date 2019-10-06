@@ -17,7 +17,7 @@ return(
      data-item-name={props.node.title}
      data-item-price={props.node.price}
      data-item-image={props.node.image.fluid.src}
-      data-item-url= "https://danish0313.github.io/Coffee-Shop"
+      data-item-url= "https://danish0313.github.io/Coffee-Shops/"
      id = {classes.btn}> Add to Cart! </button>
       </div>
     </div>

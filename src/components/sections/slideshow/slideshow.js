@@ -24,27 +24,29 @@ const properties = {
 
 
 const Slideshow = (props) => {
+
     return (
       <div className={classes.back}>
+
       <div className="slide-container">
          <Slide {...properties}>
            <div className="each-slide">
-             <div style={{'backgroundImage': `url(${slideImages[0]})`}}>
-               <span>Screamin' Beans</span>
+             <div style={{backgroundImage: `url(${slideImages[0]})`}}>
+               <span> Screamin' Beans </span>
              </div>
            </div>
            <div className="each-slide">
-             <div style={{'backgroundImage': `url(${slideImages[1]})`}}>
+             <div style={{backgroundImage: `url(${slideImages[1]})`}}>
                <span>Manhattan Mocha</span>
              </div>
            </div>
            <div className="each-slide">
-             <div style={{'backgroundImage': `url(${slideImages[3]})`}}>
+             <div style={{ backgroundImage: `url(${slideImages[3]})`}}>
                <span>Manhattan Mocha</span>
              </div>
            </div>
            <div className="each-slide">
-             <div style={{'backgroundImage': `url(${slideImages[2]})`}}>
+             <div style={{backgroundImage: `url(${slideImages[2]})`}}>
                <span>Mugs Coffee</span>
              </div>
            </div>
