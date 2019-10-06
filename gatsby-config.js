@@ -2,6 +2,9 @@ let env = process.env.NODE_ENV || 'development';
 require('dotenv').config({path: `./.env.${env}`});
 
 module.exports = {
+  pathPrefix: "https://github.com/danish0313/Coffee-Shops",
+},
+module.exports = {
   siteMetadata: {
     title: `Coffee Shops`,
     description: `Coffee Shop E-Ecommerce.`,
