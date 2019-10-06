@@ -1,6 +1,6 @@
 
 import PropTypes from "prop-types"
-import React , {useState , useEffect} from "react"
+import React , {useState} from "react"
 import Logo from "../images/coffee.svg"
 import {Link } from "gatsby"
 import { FaShoppingCart ,FaHome ,FaUserAlt , FaMobileAlt } from 'react-icons/fa';
@@ -10,7 +10,7 @@ const Header = ({ siteTitle }) =>  {
 
 const [Show, setShow] = useState(false);
 
-useEffect( () => {
+
 
   // for log to shrink
   window.onscroll = function() {scrollFunction()};
@@ -29,7 +29,6 @@ useEffect( () => {
 
 
 
-},[])
 
 
 
@@ -60,7 +59,7 @@ useEffect( () => {
       <div className="navbar-nav ml-auto mr-5 ">
         <Link to="/" className="nav-item nav-link active" ><FaHome  style={{fontSize:'25px'}}/> </Link>
         <Link to ="Coffee-Shops/about" className="nav-item nav-link" ><FaUserAlt  style={{fontSize:'25px'}}/></Link>
-      <Link to ="Coffee-Shops/cart" className="nav-item nav-link snipcart-checkout" >
+      <Link to ="/cart" className="nav-item nav-link snipcart-checkout" >
       <FaShoppingCart style={{fontSize:'25px'}}/> </Link>
 
 

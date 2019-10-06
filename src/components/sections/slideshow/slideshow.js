@@ -35,6 +35,7 @@ const Slideshow = (props) => {
                <span> Screamin' Beans </span>
              </div>
            </div>
+
            <div className="each-slide">
              <div style={{backgroundImage: `url(${slideImages[1]})`}}>
                <span>Manhattan Mocha</span>
@@ -45,13 +46,16 @@ const Slideshow = (props) => {
                <span>Manhattan Mocha</span>
              </div>
            </div>
+
            <div className="each-slide">
              <div style={{backgroundImage: `url(${slideImages[2]})`}}>
                <span>Mugs Coffee</span>
              </div>
            </div>
+
          </Slide>
-       </div>
+
+      </div>
        </div>
 
     )
